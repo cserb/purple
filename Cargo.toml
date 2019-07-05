@@ -18,13 +18,13 @@ tokio = "0.1.11"
 futures = "0.1.25"
 dirs = "1.0.4"
 elastic-array = "0.10.0"
-jsonrpc-core = "9.0.0"
-jsonrpc-macros = "9.0.0"
+# jsonrpc-core = "9.0.0"
+# jsonrpc-macros = "9.0.0"
 hashdb = "0.3.0"
 rocksdb = "0.12.2"
 account = { path = "src/account" }
 purple_vm = { path = "src/purple_vm" }
-crypto = { path = "src/crypto" } 
+crypto = { path = "src/crypto" }
 jump = { path = "src/jump" }
 events = { path = "src/events" }
 consensus = { path = "src/consensus" }
@@ -34,6 +34,7 @@ transactions = { path = "src/transactions" }
 common = { path = "src/common" }
 chain = { path = "src/chain" }
 miner = { path = "src/miner" }
+rpc = { path = "src/rpc" }
 mimalloc = "0.1.5"
 
 [[bin]]
